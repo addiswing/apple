@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+.headerwrapper {
+  background-color: black;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 200;
+}
+.headerwrapper ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.navwarapper {
+  width: 980px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.headerwrapper .linkwrapper ul li a {
+  text-decoration: none;
+  color: #ffff;
+}
+.headerwrapper .linkwrapper ul li {
+  display: inline-block;
+  padding: 14px 0 8px;
+  height: 25px;
+  opacity: 0.8;
+}
+.headerwrapper .linkwrapper ul li:hover {
+  opacity: 1;
+}
+.logolink,
+.searchlink,
+.cartlink {
+  width: 18px;
+  display: block;
+}
+.headerwrapper .linkwrapper ul li.logolink {
+  padding: 12px 0 10px;
+}
+.headerwrapper .linkwrapper ul li.searchlink {
+  padding: 14px 0 8px;
+}
+.headerwrapper .linkwrapper ul li.cartlink {
+  padding: 11px 0 10px;
+}
+
+/* footer style details*/
+.footermainwrapper {
+  background-color: rgb(242, 235, 235);
+  color: rgb(26, 25, 25);
+  font-size: 0.75rem;
+}
+.footercontentwrapper {
+  margin: 0 auto;
+  width: 980px;
+}
+
+.footerheadertextwrapper {
+  color: rgb(26, 25, 25);
+  border-bottom: 1px solid rgb(41, 41, 41);
+  padding: 17px 0px 20px;
+}
+.footerheadertextwrapper a {
+  text-decoration: none;
+  color: rgb(44, 181, 245);
+}
+.footerheadertextwrapper a:hover {
+  text-decoration: underline;
+}
+.footerlinkwrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.footermainwrapper ul {
+  list-style: none;
+  padding-bottom: 20px;
+}
+.footermainwrapper ul li {
+  padding: 5px 0;
+  font-size: 0.9em;
+}
+.footerlinkwrapper a {
+  color: #515154;
+  text-decoration: none;
+}
+.footerlinkwrapper a:hover {
+  text-decoration: underline;
+}
+.footerlinkwrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+}
+.footerapplestore {
+  border-bottom: 1px solid #d2d2d7;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.copyrightwrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 20px;
+}
+.copyrightlinks ul li {
+  display: inline-block;
+  padding: 0 5px;
+  border-right: 1px solid #ccc;
+}
+
+.copyrightlinks ul li:last-child {
+  border-right: 0px;
+}
+
+.copyrightlinks ul li a {
+  text-decoration: none;
+  color: #515154;
+}
+.copyrightlinks ul li a:hover {
+  text-decoration: underline;
+}
+.countrywrapper {
+  display: inline-block;
+}
+.flagwrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+.countryname {
+  display: inline-block;
+  vertical-align: top;
+}
+/* This is a main page*/
+.maincontentwrapper1 {
+  background-color: #fafafa;
+  text-align: center;
+  padding: 25px 0;
+}
+.maincontentheaderlink1 ul {
+  list-style: none;
+}
+.modelwrapper {
+  font-size: 0.85em;
+}
+.modeltitlewrapper {
+  font-weight: 700;
+  font-size: 56px;
+}
+.modeltitledescription {
+  font-size: 2em;
+}
+.maincontentheaderlink1 {
+  padding: 15px 0;
+}
+.maincontentheaderlink1 ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+.maincontentheaderlink1 ul li a {
+  color: #06c;
+  text-decoration: none;
+}
+.maincontentheaderlink1 ul li a:hover {
+  color: #000;
+}
+.maincontentheaderlink1 ul li a::after {
+	font-family: "FontAwesome";
+	font-weight: 900;
+	content:"\f105";
+	padding-left: 10px;
+  }
+.iphone11prowrapper{
+  background-image: url("../images/home/iphone11-pro-bg.jpg");
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+  color: #ffff;
+}
+.moderiPhonewrapper{
+  font-weight: 600;
+  font-size: 56px;
+}
+.iphonedescriptionwrapper{
+  font-size: 26px;
+  padding: 10px 0;
+}
+.pricewrapper{
+  color: #86868b;
+  font-size: 0.85em;
+}
+
+
+/*this is the third section*/
+.iphone11prowrapper2{
+  background-image: url("../images/home/iphone11-bg.jpg");
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+  color: #ffff;
+}
+.moderiPhonewrapper1{
+  font-weight: 600;
+  font-size: 56px;
+}
+.iphonedescriptionwrapper1{
+  font-size: 26px;
+  padding: 10px 0;
+}
+.pricewrapper{
+  color: #86868b;
+  font-size: 0.85em;
+}
